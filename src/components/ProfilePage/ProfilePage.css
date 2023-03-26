@@ -1,0 +1,101 @@
+.profilePage {
+  height: 100%;
+  background-color: rgb(245, 243, 243);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: rgb(77, 76, 76);
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.profilePage_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 0.2;
+}
+
+.profilePage_info {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+}
+
+.profilePage_info_line {
+  display: flex;
+  flex: 0.25;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+
+.profilePage_info p {
+  padding-bottom: 6px;
+  margin-bottom: 0px;
+}
+
+.profilePage_info input {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 4px;
+  background-color: rgb(236, 236, 236);
+  border: none;
+  box-shadow: 0 0 4px grey;
+  outline: none;
+  margin: auto;
+}
+
+.profilePage_image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  box-shadow: 0 0 10px grey;
+}
+
+.profilePage_image:hover {
+  cursor: pointer;
+}
+
+.profilePage_save_changes {
+  display: flex;
+  flex: 0.05;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.profilePage_save_changes button {
+  /* width: 30%; */
+  padding: 0.8rem 2.5rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(212, 7, 7);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.profilePage_info input:focus {
+  background-color: white;
+}
+
+.profilePage_content {
+  width: 40%;
+}
+
+@media (max-width: 650px) {
+  .profilePage {
+    padding: 0;
+  }
+  .profilePage_header input {
+    top: 0;
+    left: 0;
+  }
+}
