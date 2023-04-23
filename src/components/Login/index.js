@@ -118,6 +118,9 @@ export const Login = () => {
         <div className="LoginAccountExistOrNot">
           Don&quot;t have account? <Link to="/signup"> Create Account</Link>
         </div>
+        <div className="LoginAccountExistOrNot">
+          Are you admin? <Link to="/admin/login"> Click Here</Link>
+        </div>
       </div>
     </div>
   )

@@ -91,7 +91,7 @@ export const AdminLogin = () => {
                         <CIcon icon={cilUser} />
                       </CInputGroupText>
                       <CFormInput
-                        placeholder="Email"
+                        placeholder="Email: test@gmail.com"
                         autoComplete="email"
                         value={userInputData.email}
                         onChange={(e) => handleInputChange(e, 'email')}
@@ -104,7 +104,7 @@ export const AdminLogin = () => {
                       </CInputGroupText>
                       <CFormInput
                         type="password"
-                        placeholder="Password"
+                        placeholder="Password: test"
                         autoComplete="current-password"
                         value={userInputData.password}
                         onChange={(e) => handleInputChange(e, 'password')}
